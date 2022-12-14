@@ -24,6 +24,9 @@
 
   <!-- Transformando o valor para INTEIRO -->
   $valor2 = (integer) $valor;
+  <!-- ou -->
+  $valor2 = (int) $valor; 
+
 
    <!-- Transformando o valor para STRING -->
   $valor2 = (string) $valor;
