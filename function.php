@@ -12,7 +12,16 @@
     function exibirBoasVindas() {
       echo 'Seja bem vindo!!!';
     };
-    
+
+    function calcularAreaTerreno($largura, $comprimento) {
+      $area = $largura * $comprimento;
+
+      return $area;
+    };
+
+    exibirBoasVindas();
+    calcularAreaTerreno(5, 20);
+
   ?>
 </body>
 </html>
