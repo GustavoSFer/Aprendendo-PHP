@@ -15,5 +15,23 @@
     // $a-- => Retorna $a e depois diminui uma unidade
 
   ?>
+
+  <h3>Pós-decremento</h3>
+  <?php
+    $a = 7;
+
+    echo "O valor contido em a é $a <br />";
+    echo "O valor contido em a após o decremento" . $a-- . " <br />";
+    echo "O valor atualizado é $a <br />";
+  ?>
+
+<h3>pré-decremento</h3>
+  <?php
+    $a = 7;
+
+    echo "O valor contido em a é $a <br />";
+    echo "O valor contido em a após o decremento" . --$a . " <br />";
+    echo "O valor atualizado é $a <br />";
+  ?>
 </body>
 </html>
