@@ -15,10 +15,6 @@
   // str_replace(<procura por>, <substitui por>, $texto) =>  Subistitui uma cadeia de caracteres por outra dentro de uma string;
   // substr($texto, <posicao inicial> , <qtde caracteres>) => Retorna parte de uma string;
 
-
-
-
-
     $texto = ''
   
   ?>
