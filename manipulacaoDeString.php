@@ -15,7 +15,23 @@
   // str_replace(<procura por>, <substitui por>, $texto) =>  Subistitui uma cadeia de caracteres por outra dentro de uma string;
   // substr($texto, <posicao inicial> , <qtde caracteres>) => Retorna parte de uma string;
 
-    $texto = ''
+    $texto = 'Curso completo de PHP';
+
+    echo $texto . '<br />';
+    echo strtolower($texto);
+
+    echo '<hr />';
+    echo strtoupper($texto);
+
+    echo '<hr />';
+    echo ucfirst($texto);
+
+    echo '<hr />';
+    echo strlen($texto);
+
+    echo '<hr />';
+    //                de       para        qual texto
+    echo str_replace('PHP', 'JavaScript', $texto);
   
   ?>
 </body>
