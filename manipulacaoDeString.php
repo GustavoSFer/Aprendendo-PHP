@@ -32,6 +32,9 @@
     echo '<hr />';
     //                de       para        qual texto
     echo str_replace('PHP', 'JavaScript', $texto);
+
+    echo '<hr />';
+    echo substr($texto, 2, 5);
   
   ?>
 </body>
