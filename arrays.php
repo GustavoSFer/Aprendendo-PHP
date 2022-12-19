@@ -26,7 +26,7 @@
       'a' => 'Banana',
       'b' => 'Maça',
       'x' => 'Pera'
-    )
+    );
     // Desta forma estamos colocando qual a poção queremos
     /**
      * [a] = Banana
@@ -34,6 +34,29 @@
      * [x] = Pera
      */
 
+
+
+     //Arrays Multidimensinal
+
+     $lista_coisas = [];
+     $lista_coisas['frutas'] = array('Banana', 'Pera', 'Uva');
+     /**
+      * lista_coisas = [frutas => array [....]]
+      */
+      
+      $lista_coisas['pessoas'] = ['João', 'Maria', 'Pedro'];
+       /**
+      * lista_coisas = [
+      *   frutas => array [....],
+      *   pessoas => array [....]
+      * ]
+      */
+
+      // Acessando uma informção - Pera -
+      echo $lista_coisas['frutas'][1];
+      // Acessando uma informção - João -
+
+      echo $lista_coisas['pessoas'][0];
   ?>
     
 </body>
