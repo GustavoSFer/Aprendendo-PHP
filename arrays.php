@@ -21,6 +21,19 @@
     var_dump($lista_frutas2);
     // Duas formas de debubar imprimindo na tela.
 
+    // Arrays Associativos
+    $lista_frutas = array(
+      'a' => 'Banana',
+      'b' => 'Maça',
+      'x' => 'Pera'
+    )
+    // Desta forma estamos colocando qual a poção queremos
+    /**
+     * [a] = Banana
+     * [b] = Maça
+     * [x] = Pera
+     */
+
   ?>
     
 </body>
