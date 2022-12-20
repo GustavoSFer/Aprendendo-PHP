@@ -27,7 +27,11 @@
   $retorno = is_array($isArray); // True
 
   $novo_array = array('teclado', 'mouse', 'tela', 'cabo hdmi', 'gabinete');
-  sort($novo_array);
+  sort($novo_array); // Retorna True se for ordenado ou False se não foi ordenado
+  print_r($novo_array);
+
+  $novo_array = array('teclado', 'mouse', 'tela', 'cabo hdmi', 'gabinete');
+  asort($novo_array); // Mantem o indice de cada elemento do array original
   print_r($novo_array);
 
 
