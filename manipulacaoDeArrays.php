@@ -26,7 +26,11 @@
   $isArray = [1,2,3,4];
   $retorno = is_array($isArray); // True
 
-  
+  $novo_array = array('teclado', 'mouse', 'tela', 'cabo hdmi', 'gabinete');
+  sort($novo_array);
+  print_r($novo_array);
+
+
   ?>
 
 </body>
