@@ -11,7 +11,7 @@
   <?php
 
   /*
-    is_array(array) -> Verifica se o paramentro é um array;
+    is_array(array) -> Verifica se o paramentro é um array; => Retorno True / False
     array_keys(array) -> Retorna todas as chaves de um array;
     sort(array) -> Ordena um array e reajusta seus indices;
     asort(array) -> Ordena um array preservando os indices;
@@ -20,6 +20,11 @@
     explode(array) -> Divide uma string baseada em um delimitador;
     implode(array) -> Junta elementos de um array em uma string;
   */
+
+  $array = 'String';
+  $retorno = is_array($array); // False
+  $isArray = [1,2,3,4];
+  $retorno = is_array($isArray); // True
 
   
   ?>
