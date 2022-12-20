@@ -35,6 +35,23 @@
   print_r($novo_array);
 
 
+  $array1 = ['osx', 'Windows'];
+  $array2 = array('linux', 'mcos');
+
+  $novo_array = array_merge($array1, $array2);
+  echo '<pre>';
+    print_r($novo_array);
+  echo '</pre>';
+
+
+  $string = '26/04/2020';
+  $array_retorno = explode('/', $string); // Retorna um array separado pelo / ( exemplo [26, 04, 2020]);
+
+
+  $array = ['a', 'b', 'c'];
+  $string_retorno = implode(',', $array); // Retona uma string separando as informações com a virgula ,
+
+
   ?>
 
 </body>
