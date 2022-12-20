@@ -21,6 +21,11 @@
       echo 'Não, não existe a fruta no array';
     }
 
+    // 2ª -> array_search('palavra', array) => Retorna o indice do valor pesquisado. Se não achar o retorno é Null
+    $posicao = array_search('Uva', $lista_frutas); // 3
+    echo $posicao;
+
+
 
   ?>
 
