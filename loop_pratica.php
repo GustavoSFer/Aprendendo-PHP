@@ -20,12 +20,19 @@
     echo '</pre>';
 
     $idx = 0;
-    while ($idx < count($registro)) {
+    // while ($idx < count($registro)) {
+    //   echo '<h3>' . $registro[$idx]['titulo'] . '</h3>';
+    //   echo '<p>' . $registro[$idx]['conteudo'] . '</p>';
+
+    //   echo '<hr />';
+    //   $idx++;
+    // }
+
+    for($idx; $idx < count($registro); $idx++) {
       echo '<h3>' . $registro[$idx]['titulo'] . '</h3>';
       echo '<p>' . $registro[$idx]['conteudo'] . '</p>';
 
       echo '<hr />';
-      $idx++;
     }
   ?>
 </body>
